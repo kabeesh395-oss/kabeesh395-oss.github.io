@@ -1,0 +1,349 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kabeesh N | AI & Machine Learning Student</title>
+  <meta name="description" content="Kabeesh N - Artificial Intelligence and Machine Learning student, developer and builder of practical AI projects.">
+  <meta name="keywords" content="Kabeesh N, Kabeesh, AI ML Student, Artificial Intelligence, Machine Learning, Coimbatore">
+  <meta name="author" content="Kabeesh N">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(11,11,11,0.95);
+      border-bottom: 1px solid #222;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      font-size: 22px;
+    }
+
+    nav a {
+      color: #aaa;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 80px 8%;
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero p:first-child {
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    .hero h1 {
+      font-size: clamp(45px, 8vw, 80px);
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #4ade80;
+    }
+
+    .hero .role {
+      font-size: 22px;
+      color: #bbb;
+      margin-bottom: 20px;
+    }
+
+    .hero .intro {
+      max-width: 650px;
+      color: #999;
+      margin-bottom: 30px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #333;
+      color: white;
+    }
+
+    .buttons .primary {
+      background: white;
+      color: black;
+    }
+
+    h2.section-title {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .about {
+      color: #aaa;
+      max-width: 750px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      border: 1px solid #333;
+      padding: 10px 15px;
+      border-radius: 20px;
+      color: #ccc;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      border: 1px solid #252525;
+      padding: 25px;
+      border-radius: 14px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #999;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      color: #4ade80;
+      text-decoration: none;
+    }
+
+    .contact p {
+      color: #aaa;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #222;
+      color: #666;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        padding: 15px 5%;
+      }
+
+      nav div {
+        display: none;
+      }
+
+      section {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h2>Kabeesh N</h2>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+
+    <p>Hello, I'm</p>
+
+    <h1>Kabeesh <span>N</span></h1>
+
+    <p class="role">
+      AI & Machine Learning Student
+    </p>
+
+    <p class="intro">
+      I build practical AI-powered applications and explore
+      Artificial Intelligence, Machine Learning and software development.
+    </p>
+
+    <div class="buttons">
+      <a class="primary" href="#projects">View Projects</a>
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    </div>
+
+  </section>
+
+
+  <section id="about">
+
+    <h2 class="section-title">About Me</h2>
+
+    <p class="about">
+      I'm Kabeesh N, an Artificial Intelligence and Machine Learning
+      student interested in building useful technology and solving
+      real-world problems through software and AI.
+    </p>
+
+  </section>
+
+
+  <section id="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+
+      <span class="skill">Python</span>
+      <span class="skill">Artificial Intelligence</span>
+      <span class="skill">Machine Learning</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">GitHub</span>
+      <span class="skill">Firebase</span>
+
+    </div>
+
+  </section>
+
+
+  <section id="projects">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects">
+
+      <div class="card">
+        <h3>Career Hub</h3>
+        <p>
+          A career-focused platform designed to help students
+          improve their skills, resume and interview readiness.
+        </p>
+        <a href="https://github.com/kabeesh395-oss/career" target="_blank">
+          View on GitHub →
+        </a>
+      </div>
+
+
+      <div class="card">
+        <h3>StudyMate</h3>
+        <p>
+          A student learning platform designed to organize
+          study materials and support exam preparation.
+        </p>
+        <a href="https://github.com/kabeesh395-oss/STUDY-MATE" target="_blank">
+          View on GitHub →
+        </a>
+      </div>
+
+
+      <div class="card">
+        <h3>Smart Concrete Mix Cost Estimator</h3>
+        <p>
+          A web-based tool for estimating concrete mix requirements
+          and project cost.
+        </p>
+        <a href="#" target="_blank">
+          View Project →
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="contact">
+
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact">
+
+      <p>
+        📧 Email:
+        <a href="mailto:YOUR_EMAIL@gmail.com" style="color:#4ade80;">
+          kabeesh395@gmail.com
+        </a>
+      </p>
+
+      <p>
+        💻 GitHub:
+        <a href="https://github.com/kabeesh395-oss"
+           target="_blank"
+           style="color:#4ade80;">
+          github.com/kabeesh395-oss
+        </a>
+      </p>
+
+      <p>
+        🔗 LinkedIn:
+        <a href="https://www.linkedin.com/"
+           target="_blank"
+           style="color:#4ade80;">
+         https://www.linkedin.com/in/kabeesh-neelamegam/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BO9JSfgqaSHiUe4iOqXNptw%3D%3D
+        </a>
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    © 2026 Kabeesh N. All rights reserved.
+  </footer>
+
+</body>
+</html>
+```
